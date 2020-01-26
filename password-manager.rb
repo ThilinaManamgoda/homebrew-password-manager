@@ -2,8 +2,8 @@ class PasswordManager < Formula
   desc "A local password Manager"
   homepage "https://github.com/ThilinaManamgoda/password-manager"
   version "v0.8.0"
-  url "https://github.com/ThilinaManamgoda/password-manager/releases/download/v0.8.0/password-manager-darwin-0.8.0.tar.gz"
-  sha256 "00ea0603203e3486eaa118a0d860e405e38f4df43eadaf632bd2a97006eeef0c"
+  url "https://github.com/ThilinaManamgoda/password-manager/releases/download/v0.8.0/password-manager-darwin-v0.8.0.tar.gz"
+  sha256 "a9a5081cbe27250902cc854a9605a6cb0ee31e76c9cdf3d25895f35d32707a6a"
 
   def install
     bin.install "password-manager"
@@ -11,6 +11,6 @@ class PasswordManager < Formula
   end
 
   test do
-    assert_equal "v0.8.0", shell_output("#{bin}/password-manager --version").strip
+    assert_equal "password-manager version " + version, shell_output("#{bin}/password-manager --version").strip
   end
 end
