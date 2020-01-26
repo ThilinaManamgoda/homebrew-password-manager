@@ -1,5 +1,5 @@
 class PasswordManager < Formula
-  desc "A local password Manager"
+  desc "Encrypt your passwords into a file and have access with ease."
   homepage "https://github.com/ThilinaManamgoda/password-manager"
   version "v0.8.0"
   url "https://github.com/ThilinaManamgoda/password-manager/releases/download/v0.8.0/password-manager-darwin-v0.8.0.tar.gz"
