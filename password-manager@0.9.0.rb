@@ -1,4 +1,4 @@
-class PasswordManagerATv090 < Formula
+class PasswordManagerAT090 < Formula
   desc "Encrypt your passwords into a file and have access with ease."
   homepage "https://github.com/ThilinaManamgoda/password-manager"
   version "v0.9.0"
