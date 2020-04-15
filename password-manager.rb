@@ -3,7 +3,7 @@ class PasswordManager < Formula
   homepage "https://github.com/ThilinaManamgoda/password-manager"
   version "v0.9.0"
   url "https://github.com/ThilinaManamgoda/password-manager/releases/download/v0.9.0/password-manager-darwin-v0.9.0.tar.gz"
-  sha256 "816ecce9b091d79fcc77c440aec1bb2bba6f5496c470d4cd272b00bb69e30d14"
+  sha256 "7b3fc707a4c325470b592b52d1f4bfd04e6af3e8eb8509c5260daefa3b736f3d"
 
   def install
     bin.install "password-manager"
