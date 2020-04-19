@@ -1,9 +1,9 @@
-class PasswordManager < Formula
+class PasswordManagerAT090 < Formula
   desc "Encrypt your passwords into a file and have access with ease."
   homepage "https://github.com/ThilinaManamgoda/password-manager"
-  version "v0.9.1"
+  version "v0.9.0"
   url "https://github.com/ThilinaManamgoda/password-manager/releases/download/v0.9.0/password-manager-darwin-v0.9.0.tar.gz"
-  sha256 "15a14eac7b51b53b251b47500a4bc2bee68c8b9691c9dbc32817856fc2aa10aa"
+  sha256 "7b3fc707a4c325470b592b52d1f4bfd04e6af3e8eb8509c5260daefa3b736f3d"
 
   def install
     bin.install "password-manager"
